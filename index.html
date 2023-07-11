@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Quang_Bài tập JS buổi 13</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container">
+    <div class="w-50">
+      <h2>Bài 1: Tính tiền lương nhân viên</h2>
+      <form>
+        <div class="form-group">
+          <label for="soNgay">Số ngày làm</label>
+          <input type="number" class="form-control" id="soNgay">
+        </div>
+        <button type="button" class="btn btn-success mb-3" id="btnBai1">Tính lương</button>
+      </form>
+      <p id="tienLuong" class="alert alert-success"></p>
+      <hr class="mt-5">
+      <h2 class="mt-5">Bài 2: Tính giá trị trung bình 5 số thực</h2>
+      <form>
+        <div class="form-group">
+          <label for="so1">Số thứ nhất</label>
+          <input type="number" class="form-control" id="so1">
+        </div>
+        <div class="form-group">
+          <label for="so2">Số thứ hai</label>
+          <input type="number" class="form-control" id="so2">
+        </div>
+        <div class="form-group">
+          <label for="so3">Số thứ ba</label>
+          <input type="number" class="form-control" id="so3">
+        </div>
+        <div class="form-group">
+          <label for="so4">Số thứ tư</label>
+          <input type="number" class="form-control" id="so4">
+        </div>
+        <div class="form-group">
+          <label for="so5">Số thứ năm</label>
+          <input type="number" class="form-control" id="so5">
+        </div>
+        <button type="button" class="btn btn-success mb-3" id="btnBai2">Tính trung bình</button>
+      </form>
+      <p id="giaTriTb" class="alert alert-success"></p>
+      <hr class="mt-5">
+      <h2 class="mt-5">Bài 3: Quy đổi tiền</h2>
+      <form>
+        <div class="form-group">
+          <label for="soNgay">Nhập số tiền USD</label>
+          <input type="number" class="form-control" id="tienUSD">
+        </div>
+        <button type="button" class="btn btn-success mb-3" onclick="quyDoi()">Quy đổi</button>
+      </form>
+      <p id="tienViet" class="alert alert-success"></p>
+      <hr class="mt-5">
+      <h2 class="mt-5">Bài 4: Tính diện tích và chu vi hình chữ nhật</h2>
+      <form>
+        <div class="form-group">
+          <label for="chieuDai">Nhập chiều dài hình chữ nhật (đơn vị mét)</label>
+          <input type="number" class="form-control" id="chieuDai">
+        </div>
+        <div class="form-group">
+          <label for="chieuRong">Nhập chiều rộng hình chữ nhật (đơn vị mét)</label>
+          <input type="number" class="form-control" id="chieuRong">
+        </div>
+        <button type="button" class="btn btn-success mb-3" onclick="tinhHcn()">Tính</button>
+      </form>
+      <p id="ketQua" class="alert alert-success"></p>
+      <hr class="mt-5">
+      <h2 class="mt-5">Bài 5: Tính tổng 2 ký số của số có 2 chữ số</h2>
+      <form>
+        <div class="form-group">
+          <label for="so2ChuSo">Nhập số nguyên dương có 2 chữ số</label>
+          <input type="number" class="form-control" id="so2ChuSo">
+        </div>
+        <button id="tinhKy" type="button" class="btn btn-success mb-3">Tính tổng ký số</button>
+      </form>
+      <p id="tongChuSo" class="alert alert-success"></p>
+    </div>
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="./js/Bai1.js"></script>
+  <script src="./js/Bai2.js"></script>
+  <script src="./js/Bai3.js"></script>
+  <script src="./js/Bai4.js"></script>
+  <script src="./js/Bai5.js"></script>
+</body>
+
+</html>
