@@ -3,6 +3,7 @@
  - số ngày làm
  
  Khối 2: Các bước xử lý
+ + Tạo UI
  + Xác định thời điểm chạy tính năng => chạy khi click vào nút "Tính lương"
  + Tạo hàm
  + Gán hàm vào sự kiện click

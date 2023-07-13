@@ -3,6 +3,7 @@
  - số có 2 chữ số
  
  Khối 2: Các bước xử lý
+ + Tạo UI
  + Xác định thời điểm chạy tính năng => chạy khi click vào nút "Tính tổng ký số"
  + Tạo hàm
  + Gán hàm vào sự kiện click
